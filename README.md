@@ -2,20 +2,20 @@
 ##
 ## Upgrading Smart Contracts (OpenZeppelin upgrades-plugins)
 Resources:
-[Better Programming](https://betterprogramming.pub/not-all-smart-contracts-are-immutable-create-upgradable-smart-contracts-e4e933b7b8a9)
-[OpenZeppelin Docs](https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades)
-[OpenZeppelin Blogs](https://blog.openzeppelin.com/the-state-of-smart-contract-upgrades/#diamonds)
+[Better Programming](https://betterprogramming.pub/not-all-smart-contracts-are-immutable-create-upgradable-smart-contracts-e4e933b7b8a9)<br />
+[OpenZeppelin Docs](https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades)<br />
+[OpenZeppelin Blogs](https://blog.openzeppelin.com/the-state-of-smart-contract-upgrades/#diamonds)<br />
 ##
 Topics Covered:
-- Designating Admin upgrade permissions
-- Changing admin account
 - Upgrading using Transparent Proxy pattern
 - Use of OpenZeppelin plugins
+- Designating Admin upgrade permissions
+- Changing admin account
 - Testing upgrades
-- Understanding Storage & function selector clashes
+- Understanding storage & function selector clashes
 
 Cons:
->However, the transparent pattern has a downside: gas cost. Each call requires an additional read from >storage to load the admin address, which became more expensive after the Istanbul fork last year. Furthermore, the contract itself is expensive to deploy compared to other proxies, at over 700k gas.
+>*However, the transparent pattern has a downside: gas cost. Each call requires an additional read from >storage to load the admin address, which became more expensive after the Istanbul fork last year. Furthermore, the contract itself is expensive to deploy compared to other proxies, at over 700k gas.*
 
 
 ##
