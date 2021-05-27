@@ -1,10 +1,10 @@
 ![](public/eth.png)
 ##
 ## Upgrading Smart Contracts (OpenZeppelin upgrades-plugins)
-Resources:
-[Better Programming](https://betterprogramming.pub/not-all-smart-contracts-are-immutable-create-upgradable-smart-contracts-e4e933b7b8a9)<br />
-[OpenZeppelin Docs](https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades)<br />
-[OpenZeppelin Blogs](https://blog.openzeppelin.com/the-state-of-smart-contract-upgrades/#diamonds)<br />
+Resources:<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Better Programming](https://betterprogramming.pub/not-all-smart-contracts-are-immutable-create-upgradable-smart-contracts-e4e933b7b8a9)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OpenZeppelin Docs](https://docs.openzeppelin.com/upgrades-plugins/1.x/truffle-upgrades)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[OpenZeppelin Blogs](https://blog.openzeppelin.com/the-state-of-smart-contract-upgrades/#diamonds)<br />
 ##
 Topics Covered:
 - Upgrading using Transparent Proxy pattern
