@@ -1,0 +1,54 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x31A591995b25bfCF538e98c5c86ab79e36Bf0483",
+    "txHash": "0xd83d271d198ada258eb29b004c04b8c26d661402e5ed2015c7a371c8bc2e2eae"
+  },
+  "proxies": [
+    {
+      "address": "0xDd1d04AA61AfE3e8242F48A01db55CD23775AFE4",
+      "txHash": "0xcabacecc927c570e0bfaeaafff36bb3cf660f2121f3068ba40ce09c7d682e76d",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a65cdfa308566facef6065beb9e631bc7782c0699e2093fd7f5bc24c50583bce": {
+      "address": "0x319D2ddF4F18706B08149994aF83FD1708d7d99E",
+      "txHash": "0x844fae97335676f01972c2559e2871e4057997616bab7a75d166d4c167d60551",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\C\\Users\\Guceri\\Projects\\ProxyUpgrade\\src\\contracts\\Box.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "a8c34e30dd42bfa0d900135a30dbc42f877332f6d3aa29d69727e5d34d15e657": {
+      "address": "0x09E1689e801099883101Af66F5796dDAe396Ba9A",
+      "txHash": "0xd663f8439ed3660cc80238ded136039f64cea28734bac42551b11277e8dea92e",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "..\\..\\..\\..\\..\\..\\C\\Users\\Guceri\\Projects\\ProxyUpgrade\\src\\contracts\\Box.sol:9"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
