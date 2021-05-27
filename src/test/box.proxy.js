@@ -6,6 +6,7 @@ const BoxV2 = artifacts.require('BoxV2');
 describe('upgrades', () => {
   it('works', async () => {
     const box = await deployProxy(Box, [42]);
+    //Note that box.address is actually the proxy address
     const box2 = await upgradeProxy(box.address, BoxV2);
 
     const value = await box2.value();
